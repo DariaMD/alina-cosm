@@ -1,0 +1,30 @@
+<svg width="67" height="65" viewBox="0 0 67 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2584 -5858)" figma:type="canvas">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Ellipse 4" style="mix-blend-mode:normal;" figma:type="ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(2584 5862.37)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(2584 5862.37)" fill="#C4C4C4" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Ellipse 4" style="mix-blend-mode:normal;" figma:type="ellipse">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(2618.34 5858.9)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(2618.34 5858.9)" fill="#C4C4C4" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 58.5998 30.2636C 58.5998 46.9777 45.4818 60.5271 29.2999 60.5271C 13.118 60.5271 0 46.9777 0 30.2636C 0 13.5495 13.118 0 29.2999 0C 45.4818 0 58.5998 13.5495 58.5998 30.2636Z"/>
+<path id="path1_stroke_2x" d="M 57.5998 30.2636C 57.5998 46.4561 44.8993 59.5271 29.2999 59.5271L 29.2999 61.5271C 46.0643 61.5271 59.5998 47.4992 59.5998 30.2636L 57.5998 30.2636ZM 29.2999 59.5271C 13.7006 59.5271 1 46.4561 1 30.2636L -1 30.2636C -1 47.4992 12.5355 61.5271 29.2999 61.5271L 29.2999 59.5271ZM 1 30.2636C 1 14.071 13.7006 1 29.2999 1L 29.2999 -1C 12.5355 -1 -1 13.0279 -1 30.2636L 1 30.2636ZM 29.2999 1C 44.8993 1 57.5998 14.071 57.5998 30.2636L 59.5998 30.2636C 59.5998 13.0279 46.0643 -1 29.2999 -1L 29.2999 1Z"/>
+<path id="path2_fill" d="M 32.6622 16.8682C 32.6622 26.1843 25.3505 33.7364 16.3311 33.7364C 7.31168 33.7364 0 26.1843 0 16.8682C 0 7.55216 7.31168 0 16.3311 0C 25.3505 0 32.6622 7.55216 32.6622 16.8682Z"/>
+<path id="path3_stroke_2x" d="M 31.6622 16.8682C 31.6622 25.6627 24.768 32.7364 16.3311 32.7364L 16.3311 34.7364C 25.933 34.7364 33.6622 26.7058 33.6622 16.8682L 31.6622 16.8682ZM 16.3311 32.7364C 7.89422 32.7364 1 25.6627 1 16.8682L -1 16.8682C -1 26.7058 6.72914 34.7364 16.3311 34.7364L 16.3311 32.7364ZM 1 16.8682C 1 8.07369 7.89422 1 16.3311 1L 16.3311 -1C 6.72914 -1 -1 7.03062 -1 16.8682L 1 16.8682ZM 16.3311 1C 24.768 1 31.6622 8.07369 31.6622 16.8682L 33.6622 16.8682C 33.6622 7.03062 25.933 -1 16.3311 -1L 16.3311 1Z"/>
+</defs>
+</svg>

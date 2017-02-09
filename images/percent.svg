@@ -1,0 +1,32 @@
+<svg width="103" height="101" viewBox="0 0 103 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2647 -576)" figma:type="canvas">
+<g id="Group" style="mix-blend-mode:normal;" opacity="0.05" figma:type="frame">
+<g id="Vector 6" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_stroke" transform="translate(2651.82 579.218)" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 6" style="mix-blend-mode:normal;" figma:type="ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(2703.99 631.141)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(2703.99 631.141)" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Ellipse 6" style="mix-blend-mode:normal;" figma:type="ellipse">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(2647.47 579.218)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(2647.47 579.218)" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M -1.7635 93.4203C -2.74216 94.3942 -2.74598 95.9771 -1.77202 96.9558C -0.798066 97.9345 0.784842 97.9383 1.7635 96.9643L -1.7635 93.4203ZM 97.4157 1.77202C 98.3943 0.798066 98.3981 -0.784842 97.4242 -1.7635C 96.4502 -2.74216 94.8673 -2.74598 93.8887 -1.77202L 97.4157 1.77202ZM 1.7635 96.9643L 97.4157 1.77202L 93.8887 -1.77202L -1.7635 93.4203L 1.7635 96.9643Z"/>
+<path id="path1_fill" d="M 43.4783 21.6346C 43.4783 33.5831 33.7453 43.2692 21.7391 43.2692C 9.73294 43.2692 0 33.5831 0 21.6346C 0 9.68615 9.73294 0 21.7391 0C 33.7453 0 43.4783 9.68615 43.4783 21.6346Z"/>
+<path id="path2_stroke_2x" d="M 38.4783 21.6346C 38.4783 30.799 31.0066 38.2692 21.7391 38.2692L 21.7391 48.2692C 36.484 48.2692 48.4783 36.3672 48.4783 21.6346L 38.4783 21.6346ZM 21.7391 38.2692C 12.4716 38.2692 5 30.799 5 21.6346L -5 21.6346C -5 36.3672 6.99426 48.2692 21.7391 48.2692L 21.7391 38.2692ZM 5 21.6346C 5 12.4703 12.4716 5 21.7391 5L 21.7391 -5C 6.99426 -5 -5 6.90203 -5 21.6346L 5 21.6346ZM 21.7391 5C 31.0066 5 38.4783 12.4703 38.4783 21.6346L 48.4783 21.6346C 48.4783 6.90203 36.484 -5 21.7391 -5L 21.7391 5Z"/>
+</defs>
+</svg>

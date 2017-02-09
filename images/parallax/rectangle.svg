@@ -1,0 +1,18 @@
+<svg width="72" height="52" viewBox="0 0 72 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Rectangle 17</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3646 -446)" figma:type="canvas">
+<g id="Rectangle 17" style="mix-blend-mode:normal;" figma:type="vector">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="matrix(0.866025 0.5 -0.5 0.866025 3665 446)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(0.866025 0.5 -0.5 0.866025 3665 446)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 61.7224 1.87313L 0 0L 9.72236 53.8731L 61.7224 1.87313Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0.0303337 -0.99954L -1.20329 -1.03698L -0.984103 0.177599L 0 0ZM 61.7224 1.87313L 62.4295 2.58024L 64.0659 0.943791L 61.7527 0.87359L 61.7224 1.87313ZM 9.72236 53.8731L 8.73826 54.0507L 9.07776 55.9319L 10.4295 54.5802L 9.72236 53.8731ZM -0.0303337 0.99954L 61.692 2.87267L 61.7527 0.87359L 0.0303337 -0.99954L -0.0303337 0.99954ZM 10.7065 53.6955L 0.984103 -0.177599L -0.984103 0.177599L 8.73826 54.0507L 10.7065 53.6955ZM 61.0153 1.16602L 9.01526 53.166L 10.4295 54.5802L 62.4295 2.58024L 61.0153 1.16602Z"/>
+</defs>
+</svg>

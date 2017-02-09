@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="noIE" lang="en-US">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/switcher.css">
+    <link rel="stylesheet" href="/css/jquery-ui.min.css">
+
+    <link href="css/main.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <script src="js/respond.min.js"></script> <![endif]-->
+
+
+
+
+</head>
+<body>
+<nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="mob-search">
+                <div class="wrap-search">
+                    <form action="" autocomplete="on">
+                        <input id="search" name="search" type="text" placeholder="What're we looking for ?">
+                        <input id="search_submit" type="submit">
+                    </form>
+                </div>
+                <div class="cart">
+                    <a href="#"><img src="images/cart.svg" alt="cart">
+                        <div id="circle-cart"><span class="cart-number">3</span></div>
+                    </a>
+                </div>
+            </div><!-- END mob-search -->
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Буклеты</a></li>
+                <li><a href="#">Партнеры</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">РУ
+                        <span class="nav-arrow-bottom">
+                          <svg>
+                            <use xlink:href="#nav-arrow-bottom"></use>
+                          </svg>
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-left">
+                        <li><a href="#">RO</a></li>
+                        <li><a href="#">ENG</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">USD
+                        <span class="nav-arrow-bottom">
+                          <svg>
+                            <use xlink:href="#nav-arrow-bottom"></use>
+                          </svg>
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-left">
+                        <li><a href="#">MDL</a></li>
+                        <li><a href="#">EUR</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#"> <span>Регистрация</span></a>
+                    <div class="loginbox dropdown-menu">
+                        <form>
+                            <div class="form-group"> <i class="fa fa-user fa-fw"></i>
+                                <input class="form-control" id="InputUserName" placeholder="Username" type="text" data-validation="required">
+                            </div>
+                            <div class="form-group"> <i class="fa fa-lock fa-fw"></i>
+                                <input class="form-control" id="InputPasswordReg" placeholder="Password" type="password" data-validation="required">
+                            </div>
+                            <button class="btn" type="submit">Регистрация</button>
+                        </form>
+                    </div>
+                </li>
+                <li class="dropdown enter">
+                    <a class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" href="#"><span>Вход</span></a>
+                    <div class="loginbox dropdown-menu">
+                        <form>
+                            <div class="form-group"> <i class="fa fa-user fa-fw"></i>
+                                <input class="form-control" id="InputUserName" placeholder="Username" type="text" data-validation="required">
+                            </div>
+                            <div class="form-group"> <i class="fa fa-lock fa-fw"></i>
+                                <input class="form-control" id="InputPasswordLogin" placeholder="Password" type="password" data-validation="required">
+                            </div>
+                            <button class="btn" type="submit">Вход</button>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<header>
+    <div class="parallax-card" data-depth=".3" data-posY="0" data-direction><img src="images/parallax/card.svg" alt=""></div>
+    <div class="circles" data-depth=".5" data-posY="-200" data-direction><img src="images/parallax/circles.svg" alt=""></div>
+    <div class="parallax-cross" data-depth=".3" data-posY="520"><img src="images/parallax/cross.svg" alt=""></div>
+    <div class="parallax-heart" data-depth=".8" data-posY="100" data-direction><img src="images/parallax/heart.svg" alt=""></div>
+    <div class="parallax-rectangle" data-depth=".6"><img src="images/parallax/rectangle.svg" alt=""></div>
+    <!-- Logo and Search -->
+    <div class="container">
+        <div class="row clearfix">
+            <div class="block-logo">
+                <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12">
+                    <div class="logo">
+                        <div class="logoimage">
+                            <a href="index.html">
+                                <img src="images/logo.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END col-lg-3 col-xs-12 -->
+                <!-- end: logo -->
+                <!-- search -->
+                <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                    <div class="mob-search">
+                        <div class="wrap-search">
+                            <form action="" autocomplete="on">
+                                <input id="search" name="search" type="text" placeholder="What're we looking for ?">
+                                <input id="search_submit" type="submit">
+                            </form>
+                        </div>
+                        <div class="cart">
+                            <a href="cart.html"><img src="images/cart.svg" alt="cart">
+                                <div id="circle-cart"><span class="cart-number">3</span></div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end: search -->
+            </div>
+            <!-- END BLOCK-LOGO -->
+        </div>
+        <!-- END ROW -->
+    </div>
+    <!-- END CONTAINER -->
+    <!-- end: Logo and Search -->
+
+    <!-- Menu -->
+
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <!-- <div class="menu-heading"><a href="category.html"><span class="block-icon"><img src="images/ic-menu.svg"></span> <span> КАТЕГОРИИ ТОВАРОВ</span></a> </div> -->
+                <!-- Mega Menu -->
+                <div class="menu3dmega responsive vertical category-menu" id="menuMega">
+                    <div class="menuToggle categToggle">КАТЕГОРИИ ТОВАРОВ <span class="menu-icon"><img src="images/ic-menu.svg"></span></div>
+                    <ul class="ulMega categMega">
+                        <!-- Menu Item Links for Mobiles Only -->
+
+                        <!-- end: Menu Item -->
+                        <!-- Menu Item for Tablets and Computers Only-->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                  <span class="block-icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                  viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                                        <style type="text/css">
+                                            .st0{stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;}
+                                        </style>
+                                        <g>
+                                        <circle class="st0" cx="12.4" cy="15.9" r="1.7"/>
+                                        <path class="st0" d="M12.5,15.2v-3.6"/>
+                                        <path class="st0" d="M12.4,18.3c0.7-1.4,2-1.3,2.8-0.7c1.6,1.2-0.9,5.5-2.8,6.4c-2-0.7-4.6-5.1-2.8-6.4
+                                            C10.4,17,11.7,16.9,12.4,18.3z"/>
+                                        <path class="st0" d="M12.5,11.4L18.4,1 M12.5,11.4L6.6,1"/>
+                                    </g>
+                                    </svg></span>
+                                <span>Аксессуары</span> <img src="images/arrow-right.svg" class="arrow-right"></a>
+                            <div class="dropdown-menu flyout-menu">
+                                <!-- Sub Menu -->
+                                <ul class="dropdown">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Home RTL</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li> <a href="#">Blog</a></li>
+                                    <li> <a href="#">Product</a></li>
+                                    <li><a href="#">Shoping Cart</a></li>
+                                    <li><a href="#">Checkout</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                                <!-- end: Sub Menu -->
+                            </div>
+                        </li>
+                        <!-- end: Menu Item -->
+                        <!-- Menu Item -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="block-icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                               viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                                  <style type="text/css">
+                                    .st1{fill:none;stroke-miterlimit:10;}
+                                  </style>
+                                  <g>
+                                    <path class="st0" d="M24,13.4L12.5,3L1,13.4 M3.4,13.7V22h18.3v-8.3"/>
+                                    <path class="st1" d="M14.9,16.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4c0-1.3,2.4-6.5,2.4-6.5S14.9,15.2,14.9,16.6z"/>
+                                  </g>
+                                </svg></span> <span>Уход за домом</span> <img src="images/arrow-right.svg" class="arrow-right"></a>
+                            <div class="dropdown-menu flyout-menu">
+                                <!-- Sub Menu -->
+                                <ul>
+                                    <li><a href="#">Reguler Shirts</a></li>
+                                    <li><a href="#">Slim Shirts</a></li>
+                                    <li><a href="#">Fashion Shirts</a></li>
+                                    <li><a href="#">Black Shirts</a></li>
+                                    <li><a href="#">White Shirts</a></li>
+                                    <li><a href="#">Gray Shirts</a></li>
+                                </ul>
+                            </div>
+                            <!-- end: dropdown-menu flyout-menu-->
+                        </li>
+                        <!-- end: Menu Item -->
+                        <!-- Menu Item -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="block-icon">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                                  <g>
+                                    <ellipse class="st0" cx="12.5" cy="10.2" rx="11.5" ry="2.5"/>
+                                    <path class="st0" d="M24,10.4c0,3.3-5.2,6-11.5,6S1,13.7,1,10.4 M9.6,16.4v5.9h5.7v-5.9 M9.7,3.2c1.2-0.9,2.1-1.2,2.7,4"/>
+                                  </g>
+                                  </svg></span> <span>Гигена и уход за телом</span> <img src="images/arrow-right.svg" class="arrow-right"></a>
+                            <div class="dropdown-menu flyout-menu">
+                                <!-- Sub Menu -->
+                                <ul>
+                                    <li><a href="#">Reguler Shirts</a></li>
+                                    <li><a href="#">Slim Shirts</a></li>
+                                    <li><a href="#">Fashion Shirts</a></li>
+                                    <li><a href="#">Black Shirts</a></li>
+                                    <li><a href="#">White Shirts</a></li>
+                                    <li><a href="#">Gray Shirts</a></li>
+                                </ul>
+                            </div>
+                            <!-- end: dropdown-menu flyout-menu-->
+                        </li>
+                        <!-- end: Menu Item -->
+                        <!-- Menu Item -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="block-icon">
+                              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                               viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0{stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;}
+                                    </style>
+                                    <g>
+                                        <path class="st0" d="M9.8,1h5.4c1.6,3.8,6.1,3.5,6.1,3.5l0.9,3.1c0,0-3.6,1.3-3.6,5.2c0,4,3.6,6.6,3.6,6.6l-2.5,3
+                                            c-4.5-2.7-7.3,1.6-7.3,1.6s-2.7-4.3-7.2-1.6l-2.5-3c0,0,3.6-2.6,3.6-6.6c0-4-3.6-5.2-3.6-5.2l0.9-3.1C3.7,4.5,8.1,4.8,9.8,1z"/>
+                                    </g>
+                                </svg>
+                              </span> <span>Текстиль для дома</span> <img src="images/arrow-right.svg" class="arrow-right"></a>
+                            <div class="dropdown-menu flyout-menu">
+                                <!-- Sub Menu -->
+                                <ul>
+                                    <li><a href="#">Reguler Shirts</a></li>
+                                    <li><a href="#">Slim Shirts</a></li>
+                                    <li><a href="#">Fashion Shirts</a></li>
+                                    <li><a href="#">Black Shirts</a></li>
+                                    <li><a href="#">White Shirts</a></li>
+                                    <li><a href="#">Gray Shirts</a></li>
+                                </ul>
+                            </div>
+                            <!-- end: dropdown-menu flyout-menu-->
+                        </li>
+                        <!-- end: Menu Item -->
+                        <!-- Menu Item -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="block-icon">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                                  <style type="text/css">
+                                      .st0{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;}
+                                  </style>
+                                  <g>
+                                      <circle class="st0" cx="13.8" cy="11.3" r="7.2"/>
+                                      <path class="st0" d="M24,17c0,2.5-2,4.5-4.5,4.5 M3.6,5.5C3.6,3,5.6,1,8.1,1 M12.2,4.4l8.4,8.3 M6.8,9.9l8.3,8.2 M9.5,17.1
+                                          l-1.8-1.5c-1.8,1.2-5.7,4-6.7,6.8c0.2,1,0.7,1.6,1.8,1.7C4.6,23.5,8.5,18.8,9.5,17.1z"/>
+                                  </g>
+                                  </svg>
+
+                                  </span> <span>Игрушки</span> <img src="images/arrow-right.svg" class="arrow-right"></a>
+                            <div class="dropdown-menu flyout-menu">
+                                <!-- Sub Menu -->
+                                <ul>
+                                    <li><a href="#">Reguler Shirts</a></li>
+                                    <li><a href="#">Slim Shirts</a></li>
+                                    <li><a href="#">Fashion Shirts</a></li>
+                                    <li><a href="#">Black Shirts</a></li>
+                                    <li><a href="#">White Shirts</a></li>
+                                    <li><a href="#">Gray Shirts</a></li>
+                                </ul>
+                            </div>
+                            <!-- end: dropdown-menu flyout-menu-->
+                        </li>
+                        <!-- end: Menu Item -->
+                        <!-- Menu Item -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="block-icon">
+                                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                   viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+
+                                <g>
+                                    <path class="st0" d="M12.3,5.4c-0.2-0.2-0.5-0.2-0.7,0l-1.5,1.5c-0.2,0.2-0.2,0.5,0,0.7c0.1,0.1,0.2,0.1,0.3,0.1
+                                        c0.1,0,0.2,0,0.3-0.1l1.5-1.5C12.5,5.9,12.5,5.6,12.3,5.4z M14,6.4l-3,3c-0.2,0.2-0.2,0.5,0,0.7c0.1,0.1,0.2,0.1,0.3,0.1
+                                        c0.1,0,0.2,0,0.3-0.1l3-3c0.2-0.2,0.2-0.5,0-0.7C14.5,6.2,14.2,6.2,14,6.4z"/>
+                                    <circle class="st1" cx="12.5" cy="7.9" r="6.9"/>
+                                    <ellipse class="st1" cx="12.5" cy="19.4" rx="6.9" ry="4.6"/>
+                                    <path class="st1" d="M19.3,18.6c0,1.7-3.1,3.1-6.8,3.1c-3.8,0-6.8-1.4-6.8-3.1"/>
+                                    <path class="st2" d="M10.1,7.4l2.1-2.1 M11.4,9.7l3-3"/>
+                                </g>
+                                </svg>
+                                </span> <span>Косметика</span> <img src="images/arrow-right.svg" class="arrow-right"></a>
+                            <div class="dropdown-menu flyout-menu">
+                                <!-- Sub Menu -->
+                                <ul>
+                                    <li><a href="#">Reguler Shirts</a></li>
+                                    <li><a href="#">Slim Shirts</a></li>
+                                    <li><a href="#">Fashion Shirts</a></li>
+                                    <li><a href="#">Black Shirts</a></li>
+                                    <li><a href="#">White Shirts</a></li>
+                                    <li><a href="#">Gray Shirts</a></li>
+                                </ul>
+                            </div>
+                            <!-- end: dropdown-menu flyout-menu-->
+                        </li>
+                        <!-- end: Menu Item -->
+                        <!-- Menu Item -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="block-icon">
+                                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                                    <g>
+                                        <path class="st0" d="M12.6,19.5L10.3,24H4.6c2.2-6,3.3-12.1,3-18.6h2.5c0,0,0.3,3.7,2.4,3.7c2.1,0,1.9-3.7,1.9-3.7h2.8
+                                            C16.9,11.9,18,18,20.2,24h-5.5L12.6,19.5z M7.3,13.9h3.6 M14,13.9h3.4 M3.9,8.7c0,0,1.3-1.2,3.7-2 M21.1,8.7c0,0-1.4-1.2-3.8-2.1"
+                                            />
+                                        <path class="st0" d="M10.2,6c0.4-0.1,0.6-0.2,1.1-0.2c1.1-0.1,2.3-0.1,3.1,0.1 M12.4,5.6c0,0,0-2.1,0-2.1c-0.7,0-1.3-0.6-1.3-1.3
+                                            c0-0.7,0.6-1.3,1.3-1.3c0.7,0,1.3,0.6,1.3,1.3 M11,12.4h3v3h-3V12.4z"/>
+                                    </g>
+                                    </svg>
+                                </span> <span>Гигиена для малышей</span> <img src="images/arrow-right.svg" class="arrow-right"></a>
+                            <div class="dropdown-menu flyout-menu">
+                                <!-- Sub Menu -->
+                                <ul>
+                                    <li><a href="#">Reguler Shirts</a></li>
+                                    <li><a href="#">Slim Shirts</a></li>
+                                    <li><a href="#">Fashion Shirts</a></li>
+                                    <li><a href="#">Black Shirts</a></li>
+                                    <li><a href="#">White Shirts</a></li>
+                                    <li><a href="#">Gray Shirts</a></li>
+                                </ul>
+                            </div>
+                            <!-- end: dropdown-menu flyout-menu-->
+                        </li>
+                        <!-- end: Menu Item -->
+                        <!-- Menu Item -->
+                        <li class="dropdown">
+                            <a href="#"> <span class="block-icon">
+                                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st1{fill:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;}
+                                </style>
+                                <g>
+                                    <path class="st0" d="M4.3,11.2c0-0.4-0.2-0.8-0.4-1c-0.3-0.3-0.6-0.4-1-0.4H2.5c-0.4,0-0.8,0.2-1,0.4c-0.3,0.3-0.4,0.6-0.4,1v4.3
+                                        h3.3C4.3,15.5,4.3,11.2,4.3,11.2z"/>
+                                    <path class="st0" d="M3.6,10V8.6c0-0.8,0.7-1.5,1.5-1.5h6c0.8,0,1.5,0.6,1.5,1.5V13H4.4v-1.7c0-0.4-0.2-0.8-0.4-1
+                                        C3.9,10.2,3.6,10,3.6,10z M21.4,10V8.6c0-0.8-0.7-1.5-1.5-1.5H14c-0.8,0-1.5,0.6-1.5,1.5V13h8.1v-1.7c0-0.4,0.2-0.8,0.4-1
+                                        C21,10.2,21.4,10,21.4,10z"/>
+                                    <path class="st1" d="M4.1,15.6h16.7"/>
+                                    <path class="st0" d="M24,11.2c0-0.4-0.2-0.8-0.4-1c-0.3-0.3-0.6-0.4-1-0.4h-0.4c-0.4,0-0.8,0.2-1,0.4c-0.3,0.3-0.4,0.6-0.4,1v4.3
+                                        H24C24,15.5,24,11.2,24,11.2z"/>
+                                    <path class="st1" d="M4.1,15.7v2.2h0.8l1-2.2C5.8,15.6,4.1,15.7,4.1,15.7z M20.9,15.7v2.2h-0.8l-1-2.2
+                                        C19.1,15.6,20.9,15.7,20.9,15.7z"/>
+                                </g>
+                                </svg>
+
+                                </span> <span>Всё для дома</span></a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#"> <span class="block-icon">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                              <style type="text/css">
+                                  .st1{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.4142;}
+                              </style>
+                              <g>
+                                  <path class="st0" d="M12,19.6l5.1-4.9 M20.5,10.6c0.9,0.7,3.6,4,1.4,7.9c-3.4-1.2-8.4-7.9-8.7-8.7C17.3,8,19.6,9.9,20.5,10.6z"/>
+                                  <circle class="st0" cx="6" cy="6.7" r="2"/>
+                                  <path class="st0" d="M5.9,10.1v1.4 M3.5,9l-1,1 M2.6,6.6l-1.4,0 M3.6,4.2l-1-1 M6.1,3.3l0-1.4 M8.5,4.4l1-1 M9.4,6.8l1.4,0
+                                       M8.3,9.2l1,1"/>
+                                  <path class="st1" d="M1,21.2c0.9,0,1.8,0.4,2.3,1.2c0.6,0.8,1.8,1,2.7,0.4c0.1-0.1,0.3-0.2,0.4-0.4c1-1.3,2.8-1.5,4-0.6
+                                      c0.2,0.2,0.4,0.4,0.6,0.6c0.6,0.8,1.8,1,2.7,0.4c0.1-0.1,0.3-0.2,0.4-0.4c1-1.3,2.8-1.5,4-0.6c0.2,0.2,0.4,0.4,0.6,0.6
+                                      c0.6,0.8,1.8,1,2.7,0.4c0.1-0.1,0.3-0.2,0.4-0.4c0.5-0.7,1.4-1.2,2.3-1.2"/>
+                              </g>
+                              </svg>
+                            </span> <span>Товары для отдыха</span></a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#"> <span class="block-icon">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                 viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                                <g>
+                                    <path class="st0" d="M12.2,11.9c6.8,0,10.6,8.3,5.6,11.1c-1.8,1-2.8-1.9-5.6-1.9S8.8,24.1,7,23C2.3,20.3,5.4,11.9,12.2,11.9z
+                                         M8.4,1.8c1.1-0.1,2.3,1.3,2.5,3.3c0.3,2-0.5,3.7-1.6,3.9C8.2,9.1,7.1,7.6,6.8,5.6C6.6,3.6,7.3,1.9,8.4,1.8z M16.5,1.8
+                                        c-1.1-0.1-2.3,1.3-2.5,3.3c-0.3,2,0.5,3.7,1.6,3.9c1.1,0.1,2.3-1.3,2.5-3.3C18.3,3.7,17.6,2,16.5,1.8z M23.2,7.2
+                                        c-1-0.6-2.5,0.1-3.4,1.5c-0.9,1.4-0.8,3.1,0.1,3.7c1,0.6,2.5-0.1,3.4-1.5C24.3,9.5,24.2,7.8,23.2,7.2z M1.8,7.5
+                                        c1-0.6,2.5,0.1,3.4,1.5c0.9,1.4,0.8,3.1-0.1,3.7s-2.5-0.1-3.4-1.5C0.7,9.8,0.8,8.1,1.8,7.5z"/>
+                                </g>
+                                </svg>
+                                 </span> <span>Товары для животных</span></a>
+                        </li>
+                        <!-- end: Menu Item -->
+                    </ul>
+                </div>
+                <!-- end: Mega Menu -->
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 menu-col-2">
+                <!-- Navigation Buttons/Quick Cart for Tablets and Desktop Only -->
+                <div class="menu-links hidden-xs">
+                    <ul class="nav nav-pills nav-justified">
+                        <li> <a href="#"><span class="nav-icon"><img src="images/ic-stock.svg"></span> <span class="hidden-sm">АКЦИИ</span></a> </li>
+                        <li>
+                            <a href="#"> <span class="nav-icon"><img src="images/ic-shop.svg"></span> <span class="hidden-sm">НАШИ МАГАЗИНЫ</span></a>
+                        </li>
+                        <li>
+                            <a href="brend.html"> <span class="nav-icon"><img src="images/ic-brand.svg"></span><span class="hidden-sm">БРЕНДЫ</span></a>
+                        </li>
+                        <li>
+                            <a href="#"> <span class="nav-icon"><img src="images/ic-sale.svg"></span> <span class="hidden-sm ">РАСПРОДАЖА</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end: Navigation Buttons/Quick Cart Tablets and large screens Only -->
+            </div>
+            <!-- END col-lg-9 col-md-9 col-sm-8 col-xs-12 menu-col-2 -->
+        </div>
+        <!-- END row -->
+
+    </div>
+    <!-- END CONTAINER -->
+</header>
+
+<section class="cart-page">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="index.html">Главная</a></li>
+            <span class="breadcrumb-arrow">
+                <svg>
+                  <use xlink:href="#ic-arow-right"></use>
+                </svg>
+              </span>
+            <li><a href="#">Текстиль для дома</a></li>
+            <span class="breadcrumb-arrow">
+                <svg>
+                  <use xlink:href="#ic-arow-right"></use>
+                </svg>
+              </span>
+            <li><a href="#">Постельное белье</a></li>
+            <span class="breadcrumb-arrow">
+                <svg>
+                  <use xlink:href="#ic-arow-right"></use>
+                </svg>
+              </span>
+            <li class="active">Название товара</li>
+        </ol>
+        <div class="quick-message">
+            <div class="quick-slide swiper-container" id="quick-slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <a href="#"><img src="images/ic-phone.svg">+ 373 12 34 56</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <a href="#"><img src="images/ic-phone.svg">+ 373 12 34 56</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <a href="#"><img src="images/ic-phone.svg">+ 373 12 34 56</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <a href="#"><img src="images/ic-phone.svg">+ 373 12 34 56</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <a href="#"><img src="images/ic-phone.svg">+ 373 12 34 56</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+        <!-- END QUICK SLIDE -->
+        <div class="items">
+            <h2>Корзина <span class="num-add">(3 товара добавлено)</span></h2>
+        </div><!-- END ITEMS -->
+
+        <div class="cart-items">
+            <div class="cart-items-left">
+                <div class="image">
+                    <a href="#">
+                        <img src="images/product-sales/garnier.png" alt="">
+                    </a>
+                </div>
+                <div class="separator-line"></div>
+                <div class="product-meta">
+                    <div class="name">Крем-гель для душа Nivea. Питание и забота
+                        <span class="company"><span class="bar-hidden"> | </span> Производитель</span>
+                    </div>
+                    <div class="voices">
+                        <span class="rating"><img src="images/rating.svg"></span>
+                        <span class="rating-all">| <span class="num-voices">106</span> голосов</span>
+                    </div>
+                    <div class="price">
+                        <div class="old-price">250.00<sup>MDL</sup></div>
+                        <div class="new-price">150.00<sup>MDL</sup></div>
+                    </div>
+                </div><!-- END product-meta -->
+            </div><!-- End Cart-items-left -->
+            <div class="cart-items-right">
+                <div class="separator-line"></div>
+                <div class="amount">
+                    <div class="numberCount">
+                    <span class="minus">
+                      <svg width="100%" height="100%" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+                        <g><path d="M18.485,10l-16.97,0" style="fill:none;"/></g>
+                      </svg>
+
+                      </span>
+                        <input type="number" value="1"/>
+                        <span class="plus">
+                      <svg width="100%" height="100%" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"><g><path d="M18.485,10l-16.97,0" style="fill:none;"/>
+                        <path d="M10,18.485l0,-16.97" style="fill:none;"/></g></svg>
+                    </span>
+                    </div><!-- END numberCount -->
+                </div><!-- END amount-->
+                <div class="separator-line"></div>
+                <div class="cart-price">
+                    <div class="new-price">150.00<sup>MDL</sup></div>
+                </div>
+                <div class="separator-line"></div>
+                <div class="cart-trash">
+                    <div class="trash">
+                        <svg>
+                            <use xlink:href="#trash"></use>
+                        </svg>
+                    </div>
+                </div><!-- END  cart-trash-->
+            </div><!-- End Cart-items-right -->
+
+
+
+
+
+        </div><!-- END  cart-items-->
+
+
+
+    </div><!-- END Container -->
+</section>
+
+<section class="order">
+    <div class="container">
+        <h3>Оформление заказа </h3>
+        <p>Укажите ваши данные, либо <a href="#">авторизируйтесь</a></p>
+            <div class="delivery-cont">
+                <div class="block-delivery">
+                    <h4 class="bg-green">Персональные данные</h4>
+                    <div class="delivery-info">
+                        <form action="">
+                            <input type="text" placeholder="Имя *">
+                            <input type="text" placeholder="Фамилия *">
+                            <input type="email" placeholder="Email адрес *">
+                            <input type="tel" placeholder="Ваш телефон *">
+                            <input type="password" placeholder="Пароль *">
+                            <input type="password" placeholder="Подтверждение *">
+                            <div class="captcha"><img src="images/captcha.png" alt=""></div>
+                            <input type="text" placeholder="Введите символы *">
+                        </form>
+                    </div>
+                </div>
+                <div class="block-delivery">
+                    <h4 class="bg-green">Адрес для доставки</h4>
+                    <div class="delivery-info">
+                        <form action="">
+                            <input type="text" placeholder="Город *">
+                            <input type="text" placeholder="Название улицы *">
+                            <input type="number" placeholder="№ дома *">
+                            <input type="number" placeholder="Квартира *">
+                            <input type="text" placeholder="Предпочитаемое время доставки">
+                            <textarea placeholder="Оставьте комментарий"></textarea>
+                            <p class="add-info">Заказы оформленные до 12  частов дня, могут быть доставлены этим же вечером</p>
+                        </form>
+                    </div>
+                </div>
+                <div class="block-delivery delivery-sum">
+                        <div class="sum">
+                            <div class="title-total">Стоимость
+                                <span class="total">544<sup>MDL</sup></span>
+                            </div>
+
+                        </div>
+                        <div class="sum">
+                            <div class="title-total">Доставка
+                                <span class="total">0<sup>MDL</sup></span>
+                            </div>
+
+                            <p class="free-delivery">До бесплатной  доставки осталось: <span class="total">0<sup>MDL</sup></span></p>
+                        </div>
+                        <div class="sum">
+                            <div class="title-total">Итого
+                                <span class="total">544<sup>MDL</sup></span>
+                            </div>
+
+                        </div>
+                        <button class="confirm">Подтвердить заказ</button>
+
+
+
+                </div><!-- END block-delivery delivery-sum -->
+                <button class="confirm confirm-mob">Подтвердить заказ</button>
+            </div><!-- END row -->
+
+
+        </div><!-- END delivery-cont -->
+
+
+
+</section>
+
+<section class="our-filial">
+    <div class="container-fluid">
+        <img src="images/shop.svg" class="header-icon">
+        <h1>НАШИ ФИЛИАЛЫ</h1>
+        <div class="filial-shop">
+            <div id="switcher" class="swithcer">
+                <!--filial-district  -->
+                <div class="level level1">
+                    <ul>
+                        <li><input type="radio" id="sub1" name="sub1">
+                            <label for="sub1">Бельцы
+                                <span class="filial-right">
+                      <span class="filial-num">21</span>
+                      <div class="ic-arow-right">
+                        <svg>
+                          <use xlink:href="#ic-arow-right"></use>
+                        </svg>
+                      </div>
+                      </span></label>
+                        </li>
+                        <li>Кишинев <ul class="dist-kishinev">
+                            <li><input type="radio" id="sub2" name="sub1">
+                                <label for="sub2">Центр
+                                    <span class="filial-right">
+                        <span class="filial-num">21</span>
+                        <div class="ic-arow-right">
+                          <svg>
+                            <use xlink:href="#ic-arow-right"></use>
+                          </svg>
+                        </div>
+                        </span></label>
+                            </li>
+                            <li>
+                                <input type="radio" id="sub3" name="sub1">
+                                <label for="sub3">Рышкановка
+                                    <span class="filial-right"><span class="filial-num">21</span>
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                          </span>
+                                </label>
+
+                            </li>
+                            <li>
+                                <input type="radio" id="sub4" name="sub1">
+                                <label for="sub4">
+                                    Ботаника <span class="filial-right"><span class="filial-num">21</span>
+                        <div class="ic-arow-right">
+                          <svg>
+                            <use xlink:href="#ic-arow-right"></use>
+                          </svg>
+                        </div>
+                        </span></label>
+                            </li>
+                            <li><input type="radio" id="sub5" name="sub1">
+                                <label for="sub5">
+                                    Буюканы
+                                    <span class="filial-right"><span class="filial-num">21</span>
+                        <div class="ic-arow-right">
+                          <svg>
+                            <use xlink:href="#ic-arow-right"></use>
+                          </svg>
+                        </div>
+                        </span></label>
+                            </li>
+                            <li><input type="radio" id="sub6" name="sub1">
+                                <label for="sub6">
+                                    Скулянка <span class="filial-right">
+                        <span class="filial-num">21</span>
+                        <div class="ic-arow-right">
+                          <svg>
+                            <use xlink:href="#ic-arow-right"></use>
+                          </svg>
+                        </div>
+                        </span></label>
+                            </li>
+                            <li><input type="radio" id="sub7" name="sub1">
+                                <label for="sub7">
+                                    Дурулешты <span class="filial-right">
+                        <span class="filial-num">21</span>
+                        <div class="ic-arow-right">
+                          <svg>
+                            <use xlink:href="#ic-arow-right"></use>
+                          </svg>
+                        </div>
+                      </span></label>
+                            </li>
+                        </ul></li>
+                    </ul>
+                </div>
+
+                <!-- filial-street -->
+                <div class="level level2 invis">
+                    <button class="arrow-back switch-back">
+                        <img src="images/arrow-back.svg" alt="arrow">
+                    </button>
+                    <ul class="sublevel" data-subid="sub1">
+                        <li>
+                            <input type="radio" id="sub1-1" name="sub1-1">
+                            <label for="sub1-1">ул. Албишоара, 55  <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub1-2" name="sub1-1">
+                            <label for="sub1-2">ул. 31 Августа, 75 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub1-3" name="sub1-1">
+                            <label for="sub1-3">ул. Штефан Чел Маре, 37 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub1-4" name="sub1-1">
+                            <label for="sub1-4">ул. Колумна, 5 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                    </ul>
+                    <ul class="sublevel invis-total" data-subid="sub2">
+                        <li>
+                            <input type="radio" id="sub2-1" name="sub2-1">
+                            <label for="sub2-1">222 ул. Албишоара, 55  <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub2-2" name="sub2-1">
+                            <label for="sub2-2">ул. 31 Августа, 75 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub2-3" name="sub2-1">
+                            <label for="sub2-3">ул. Штефан Чел Маре, 37 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="sub2-4" name="sub2-1">
+                            <label for="sub2-4">ул. Колумна, 5 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                    </ul>
+                    <ul class="sublevel invis-total" data-subid="sub3">
+                        <li>
+                            <input type="radio" id="sub3-1" name="sub3-1">
+                            <label for="sub3-1">ул. Албишоара, 55  <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub3-2" name="sub3-1">
+                            <label for="sub3-2">ул. 31 Августа, 75 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub3-3" name="sub3-1">
+                            <label for="sub3-3">ул. Штефан Чел Маре, 37 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="sub3-4" name="sub3-1">
+                            <label for="sub3-4">ул. Колумна, 5 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                    </ul>
+                    <ul class="sublevel invis-total" data-subid="sub4">
+                        <li>
+                            <input type="radio" id="sub4-1" name="sub4-1">
+                            <label for="sub4-1">ул. Албишоара, 55  <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub4-2" name="sub4-1">
+                            <label for="sub4-2">ул. 31 Августа, 75 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub4-3" name="sub4-1">
+                            <label for="sub4-3">ул. Штефан Чел Маре, 37 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="sub4-4" name="sub4-1">
+                            <label for="sub4-4">ул. Колумна, 5 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                    </ul>
+                    <ul class="sublevel invis-total" data-subid="sub5">
+                        <li>
+                            <input type="radio" id="sub5-1" name="sub5-1">
+                            <label for="sub5-1">ул. Албишоара, 55  <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub5-2" name="sub5-1">
+                            <label for="sub5-2">ул. 31 Августа, 75 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub5-3" name="sub5-1">
+                            <label for="sub5-3">ул. Штефан Чел Маре, 37 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="sub5-4" name="sub5-1">
+                            <label for="sub5-4">ул. Колумна, 5 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                    </ul>
+                    <ul class="sublevel invis-total" data-subid="sub6">
+                        <li>
+                            <input type="radio" id="sub6-1" name="sub6-1">
+                            <label for="sub6-1">ул. Албишоара, 55  <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub6-2" name="sub6-1">
+                            <label for="sub6-2">ул. 31 Августа, 75 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub6-3" name="sub6-1">
+                            <label for="sub6-3">ул. Штефан Чел Маре, 37 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="sub6-4" name="sub6-1">
+                            <label for="sub6-4">ул. Колумна, 5 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                    </ul>
+                    <ul class="sublevel invis-total" data-subid="sub7">
+                        <li>
+                            <input type="radio" id="sub7-1" name="sub7-1">
+                            <label for="sub7-1">ул. Албишоара, 55  <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub7-2" name="sub7-1">
+                            <label for="sub7-2">ул. 31 Августа, 75 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label></li>
+                        <li>
+                            <input type="radio" id="sub7-3" name="sub7-1">
+                            <label for="sub7-3">ул. Штефан Чел Маре, 37 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                        <li>
+                            <input type="radio" id="sub7-4" name="sub7-1">
+                            <label for="sub7-4">ул. Колумна, 5 <span class="filial-right">
+                          <div class="ic-arow-right">
+                            <svg>
+                              <use xlink:href="#ic-arow-right"></use>
+                            </svg>
+                          </div>
+                        </span></label>
+                        </li>
+                    </ul>
+
+
+
+
+
+
+                </div>
+
+                <div class="level level3 invis">
+                    <!-- <div class="switch-back"><</div>
+                    <div class="switch-to-start">X</div> -->
+
+                    <div  data-subid="wrapper">
+                        <div class="filial-address">
+                            <div class="address-header">
+                                <div class="btn-container">
+                                    <button class="back switch-back"><img src="images/arrow-back-white.svg" alt="arrow"></button>
+                                    <button class="address-close switch-to-start">
+                                        <img src="images/icon_close_white.svg" alt="">
+                                    </button>
+                                </div>
+                                <img src="images/albisoara.jpg" alt="address">
+                            </div>
+
+                            <h4>ул. Албишоара, 55</h4>
+                            <div class="address-row">
+                                <div class="address-left">Кишинев</div>
+                                <div class="address-right">Центр</div>
+                            </div>
+                            <hr>
+                            <h6>Режим работы магазина</h6>
+                            <div class="schedule">
+                                <ul>
+                                    <li class="li week"><span class="hour"><img src="images/all-day.svg" alt="all day"></span>
+                                        <span class="day-week">Пн</span></li>
+                                    <li class="li week"><span class="hour"><img src="images/all-day.svg" alt="all day"></span>
+                                        <span class="day-week">Вт</span></li>
+                                    <li class="li week"><span class="hour"><img src="images/all-day.svg" alt="all day"></span>
+                                        <span class="day-week">Ср</span></li>
+                                    <li class="li week"><span class="hour"><img src="images/all-day.svg" alt="all day"></span>
+                                        <span class="day-week">Чт</span></li>
+                                    <li class="li week"><span class="hour"><img src="images/all-day.svg" alt="all day"></span>
+                                        <span class="day-week">Пт</span></li>
+                                    <li class="li week"><span class="hour"><img src="images/all-day.svg" alt="all day"></span>
+                                        <span class="day-week">Сб</span></li>
+                                    <li class="li week"><span class="hour"><img src="images/half-day.svg" alt="half day"></span>
+                                        <span class="day-week">Вс</span></li>
+                                </ul>
+                            </div>
+                            <div class="address-row">
+                                <div class="address-left"><span class="day-week">Пн - Сб </span><span class="hour">9:00 - 18:00</span></div>
+                                <div class="address-right"><span class="day-week">Вс </span><span class="hour">11:00 - 15:00</span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="filial-map"></div>
+    </div>
+
+</section>
+<!-- END OUR-BRANCH -->
+<div class="slider-partners">
+    <div class="container-fluid">
+
+        <div class="swiper-container">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#"><img class="grayscale" src="images/logo3.svg" alt="partners"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img class="grayscale" src="images/logo3.svg" alt="partners"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img class="grayscale" src="images/logo3.svg" alt="partners"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img class="grayscale" src="images/logo3.svg" alt="partners"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img class="grayscale" src="images/logo3.svg" alt="partners"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img class="grayscale" src="images/logo3.svg" alt="partners"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img class="grayscale" src="images/logo3.svg" alt="partners"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img class="grayscale" src="images/logo3.svg" alt="partners"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img class="grayscale" src="images/logo3.svg" alt="partners"></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img class="grayscale" src="images/logo3.svg" alt="partners">
+                    </a></div>
+            </div>
+            <!-- END swiper-wrapper -->
+            <!-- Add Pagination -->
+
+        </div>
+        <!-- END swiper-container -->
+        <button class="arrow-partners arrow-partners-prev">
+            <div class="arr-left">
+                <svg>
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#partners-arrow-left"></use>
+                </svg>
+            </div>
+        </button>
+        <button class="arrow-partners arrow-partners-next">
+            <div class="arr-right">
+                <svg>
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-arow-right"></use>
+                </svg>
+            </div>
+        </button>
+
+    </div>
+</div>
+<!-- END slider-partners -->
+<footer>
+    <div class="container">
+        <div class="footer-logo">
+            <img src="images/logo.svg" alt="logo">
+            <p class="slogan">Успех любой рекламной компании напрямую зависит от качественного, броского и легко запоминающегося слогана</p>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <div class="footer-contacts">
+                    <h6>КОНТАКТЫ</h6>
+                    <ul>
+                        <li><span class="block-icon">
+                  <img src="images/mail.svg" alt="email">
+
+              </span><a href="mailto:alina.cosmetics@mail.md">alina.cosmetics@mail.md</a></li>
+                        <li><span class="block-icon">
+                  <img src="images/phone.svg" alt="phone">
+              </span><a href="tel:+37322112233">(022) 11 22 33</a><br><a href="tel:+37369112233">(069) 11 22 33</a></li>
+                        <li><span class="block-icon">
+                  <img src="images/local.svg" alt="local">
+              </span>г.Кишинёв, ул.Албишоара, 35</li>
+                    </ul>
+                </div>
+                <!-- END footer-contacts -->
+            </div>
+            <!-- END col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="footer-categories">
+                    <h6>КАТЕГОРИИ ТОВАРОВ</h6>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                  <span class="block-icon">
+
+                       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                          <style type="text/css">
+                            .st0{stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;}
+                          </style>
+                          <g>
+                              <circle class="st0" cx="12.4" cy="15.9" r="1.7"/>
+                              <path class="st0" d="M12.5,15.2v-3.6"/>
+                              <path class="st0" d="M12.4,18.3c0.7-1.4,2-1.3,2.8-0.7c1.6,1.2-0.9,5.5-2.8,6.4c-2-0.7-4.6-5.1-2.8-6.4
+                                  C10.4,17,11.7,16.9,12.4,18.3z"/>
+                              <path class="st0" d="M12.5,11.4L18.4,1 M12.5,11.4L6.6,1"/>
+                          </g>
+                      </svg>
+
+                      </span> Аксессуары
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                  <span class="block-icon">
+
+                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                      <style type="text/css">
+                          .st1{fill:none;stroke-miterlimit:10;}
+                      </style>
+                      <g>
+                          <path class="st0" d="M24,13.4L12.5,3L1,13.4 M3.4,13.7V22h18.3v-8.3"/>
+                          <path class="st1" d="M14.9,16.6c0,1.3-1.1,2.4-2.4,2.4s-2.4-1.1-2.4-2.4c0-1.3,2.4-6.5,2.4-6.5S14.9,15.2,14.9,16.6z"/>
+                      </g>
+                      </svg>
+
+                      </span>Уход за домом
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                  <span class="block-icon">
+
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                      <g>
+                          <ellipse class="st0" cx="12.5" cy="10.2" rx="11.5" ry="2.5"/>
+                          <path class="st0" d="M24,10.4c0,3.3-5.2,6-11.5,6S1,13.7,1,10.4 M9.6,16.4v5.9h5.7v-5.9 M9.7,3.2c1.2-0.9,2.1-1.2,2.7,4"/>
+                      </g>
+                      </svg>
+
+                      </span> Гигена и уход за телом
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                  <span class="block-icon">
+                     <span class="block-icon">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                          <style type="text/css">
+                              .st0{stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;}
+                          </style>
+                          <g>
+                              <path class="st0" d="M9.8,1h5.4c1.6,3.8,6.1,3.5,6.1,3.5l0.9,3.1c0,0-3.6,1.3-3.6,5.2c0,4,3.6,6.6,3.6,6.6l-2.5,3
+                                  c-4.5-2.7-7.3,1.6-7.3,1.6s-2.7-4.3-7.2-1.6l-2.5-3c0,0,3.6-2.6,3.6-6.6c0-4-3.6-5.2-3.6-5.2l0.9-3.1C3.7,4.5,8.1,4.8,9.8,1z"/>
+                          </g>
+                      </svg>
+
+                    </span>
+                                  </span> <span>Текстиль для дома</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                  <span class="block-icon">
+                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                      <style type="text/css">
+                      .st0{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;}
+                      </style>
+                      <g>
+                      <circle class="st0" cx="13.8" cy="11.3" r="7.2"/>
+                      <path class="st0" d="M24,17c0,2.5-2,4.5-4.5,4.5 M3.6,5.5C3.6,3,5.6,1,8.1,1 M12.2,4.4l8.4,8.3 M6.8,9.9l8.3,8.2 M9.5,17.1
+                          l-1.8-1.5c-1.8,1.2-5.7,4-6.7,6.8c0.2,1,0.7,1.6,1.8,1.7C4.6,23.5,8.5,18.8,9.5,17.1z"/>
+                      </g>
+                      </svg>
+
+                      </span>
+                                <span>Игрушки</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                  <span class="block-icon">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+
+                  <g>
+                      <path class="st0" d="M12.3,5.4c-0.2-0.2-0.5-0.2-0.7,0l-1.5,1.5c-0.2,0.2-0.2,0.5,0,0.7c0.1,0.1,0.2,0.1,0.3,0.1
+                          c0.1,0,0.2,0,0.3-0.1l1.5-1.5C12.5,5.9,12.5,5.6,12.3,5.4z M14,6.4l-3,3c-0.2,0.2-0.2,0.5,0,0.7c0.1,0.1,0.2,0.1,0.3,0.1
+                          c0.1,0,0.2,0,0.3-0.1l3-3c0.2-0.2,0.2-0.5,0-0.7C14.5,6.2,14.2,6.2,14,6.4z"/>
+                      <circle class="st1" cx="12.5" cy="7.9" r="6.9"/>
+                      <ellipse class="st1" cx="12.5" cy="19.4" rx="6.9" ry="4.6"/>
+                      <path class="st1" d="M19.3,18.6c0,1.7-3.1,3.1-6.8,3.1c-3.8,0-6.8-1.4-6.8-3.1"/>
+                      <path class="st2" d="M10.1,7.4l2.1-2.1 M11.4,9.7l3-3"/>
+                  </g>
+                  </svg>
+
+                      </span> <span>Косметика</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                  <span class="block-icon">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                      <g>
+                          <path class="st0" d="M12.6,19.5L10.3,24H4.6c2.2-6,3.3-12.1,3-18.6h2.5c0,0,0.3,3.7,2.4,3.7c2.1,0,1.9-3.7,1.9-3.7h2.8
+                              C16.9,11.9,18,18,20.2,24h-5.5L12.6,19.5z M7.3,13.9h3.6 M14,13.9h3.4 M3.9,8.7c0,0,1.3-1.2,3.7-2 M21.1,8.7c0,0-1.4-1.2-3.8-2.1"
+                              />
+                          <path class="st0" d="M10.2,6c0.4-0.1,0.6-0.2,1.1-0.2c1.1-0.1,2.3-0.1,3.1,0.1 M12.4,5.6c0,0,0-2.1,0-2.1c-0.7,0-1.3-0.6-1.3-1.3
+                              c0-0.7,0.6-1.3,1.3-1.3c0.7,0,1.3,0.6,1.3,1.3 M11,12.4h3v3h-3V12.4z"/>
+                      </g>
+                      </svg>
+                          </span> <span>Гигиена для малышей</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                  <span class="block-icon">
+                          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                      <style type="text/css">
+                          .st1{fill:none;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;}
+                      </style>
+                      <g>
+                          <path class="st0" d="M4.3,11.2c0-0.4-0.2-0.8-0.4-1c-0.3-0.3-0.6-0.4-1-0.4H2.5c-0.4,0-0.8,0.2-1,0.4c-0.3,0.3-0.4,0.6-0.4,1v4.3
+                              h3.3C4.3,15.5,4.3,11.2,4.3,11.2z"/>
+                          <path class="st0" d="M3.6,10V8.6c0-0.8,0.7-1.5,1.5-1.5h6c0.8,0,1.5,0.6,1.5,1.5V13H4.4v-1.7c0-0.4-0.2-0.8-0.4-1
+                              C3.9,10.2,3.6,10,3.6,10z M21.4,10V8.6c0-0.8-0.7-1.5-1.5-1.5H14c-0.8,0-1.5,0.6-1.5,1.5V13h8.1v-1.7c0-0.4,0.2-0.8,0.4-1
+                              C21,10.2,21.4,10,21.4,10z"/>
+                          <path class="st1" d="M4.1,15.6h16.7"/>
+                          <path class="st0" d="M24,11.2c0-0.4-0.2-0.8-0.4-1c-0.3-0.3-0.6-0.4-1-0.4h-0.4c-0.4,0-0.8,0.2-1,0.4c-0.3,0.3-0.4,0.6-0.4,1v4.3
+                              H24C24,15.5,24,11.2,24,11.2z"/>
+                          <path class="st1" d="M4.1,15.7v2.2h0.8l1-2.2C5.8,15.6,4.1,15.7,4.1,15.7z M20.9,15.7v2.2h-0.8l-1-2.2
+                              C19.1,15.6,20.9,15.7,20.9,15.7z"/>
+                      </g>
+                      </svg>
+
+
+                          </span> <span>Всё для дома</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                  <span class="block-icon">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                  <style type="text/css">
+                      .st1{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.4142;}
+                  </style>
+                  <g>
+                      <path class="st0" d="M12,19.6l5.1-4.9 M20.5,10.6c0.9,0.7,3.6,4,1.4,7.9c-3.4-1.2-8.4-7.9-8.7-8.7C17.3,8,19.6,9.9,20.5,10.6z"/>
+                      <circle class="st0" cx="6" cy="6.7" r="2"/>
+                      <path class="st0" d="M5.9,10.1v1.4 M3.5,9l-1,1 M2.6,6.6l-1.4,0 M3.6,4.2l-1-1 M6.1,3.3l0-1.4 M8.5,4.4l1-1 M9.4,6.8l1.4,0
+                           M8.3,9.2l1,1"/>
+                      <path class="st1" d="M1,21.2c0.9,0,1.8,0.4,2.3,1.2c0.6,0.8,1.8,1,2.7,0.4c0.1-0.1,0.3-0.2,0.4-0.4c1-1.3,2.8-1.5,4-0.6
+                          c0.2,0.2,0.4,0.4,0.6,0.6c0.6,0.8,1.8,1,2.7,0.4c0.1-0.1,0.3-0.2,0.4-0.4c1-1.3,2.8-1.5,4-0.6c0.2,0.2,0.4,0.4,0.6,0.6
+                          c0.6,0.8,1.8,1,2.7,0.4c0.1-0.1,0.3-0.2,0.4-0.4c0.5-0.7,1.4-1.2,2.3-1.2"/>
+                  </g>
+                  </svg>
+                      </span> <span>Товары для отдыха</span>
+                            </a>
+                        </li>
+                        <li><a href="#"><span class="block-icon">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 25 25" style="enable-background:new 0 0 25 25;" xml:space="preserve">
+                <g>
+                    <path class="st0" d="M12.2,11.9c6.8,0,10.6,8.3,5.6,11.1c-1.8,1-2.8-1.9-5.6-1.9S8.8,24.1,7,23C2.3,20.3,5.4,11.9,12.2,11.9z
+                         M8.4,1.8c1.1-0.1,2.3,1.3,2.5,3.3c0.3,2-0.5,3.7-1.6,3.9C8.2,9.1,7.1,7.6,6.8,5.6C6.6,3.6,7.3,1.9,8.4,1.8z M16.5,1.8
+                        c-1.1-0.1-2.3,1.3-2.5,3.3c-0.3,2,0.5,3.7,1.6,3.9c1.1,0.1,2.3-1.3,2.5-3.3C18.3,3.7,17.6,2,16.5,1.8z M23.2,7.2
+                        c-1-0.6-2.5,0.1-3.4,1.5c-0.9,1.4-0.8,3.1,0.1,3.7c1,0.6,2.5-0.1,3.4-1.5C24.3,9.5,24.2,7.8,23.2,7.2z M1.8,7.5
+                        c1-0.6,2.5,0.1,3.4,1.5c0.9,1.4,0.8,3.1-0.1,3.7s-2.5-0.1-3.4-1.5C0.7,9.8,0.8,8.1,1.8,7.5z"/>
+                </g>
+                </svg>
+                    </span> <span>Товары для животных</span></a></li>
+                    </ul>
+                </div>
+                <!-- END footer-categories -->
+            </div>
+            <!-- END col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
+            <div class="col-xs-12 col-sm-12  col-md-3 col-lg-3">
+                <div class="footer-update">
+                    <h6>ПОДПИШИСЬ НА ОБНОВЛЕНИЯ</h6>
+                    <form action="">
+                        <input type="email" placeholder="Email">
+                        <button>Подписаться</button>
+                    </form>
+                </div>
+                <!-- END footer-update -->
+            </div>
+            <!-- END col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+        </div>
+        <!-- END row -->
+    </div>
+</footer>
+<div class="develop">
+    <p class="develop-text">Сайт разработан
+        <a href=""><img src="images/logo-webus.svg" alt="webus"></a>
+    </p>
+</div>
+<!--    END develop-->
+
+<div style="display:none">
+
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg">
+        <symbol viewBox="0 0 8.65 14.71" id="ic-arow-right" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline  points="0.5 0.5 8.15 7.37 0.63 14.21"/>
+
+        </symbol>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 2">
+        <symbol viewBox="0 0 9 15" id="nav-arrow-bottom" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline  points="11.4,3.7 4.5,11.3 -2.4,3.8 "/>
+        </symbol>
+    </svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg"  data-name="Layer 3">
+        <symbol viewBox="0 0 9 15" id="partners-arrow-left" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="8.3,14.4 0.7,7.5 8.2,0.6 "/>
+        </symbol>
+    </svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol viewBox="0 0 1000 1000" id="bars" enable-background="new 0 0 1000 1000" xml:space="preserve">
+          <g><g><path d="M10,91.7V255h980V91.7H10z M10,581.7h980V418.3H10V581.7z M10,908.3h980V745H10V908.3z"/></g></g>
+        </symbol>
+    </svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol viewBox="0 0 300.000000 300.000000" id="list">
+            <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" stroke="none">
+                <path d="M505 2487 c-3 -7 -4 -118 -3 -247 l3 -235 248 -3 247 -2 -2 247 -3
+        248 -243 3 c-191 2 -244 0 -247 -11z" id="node1" class="node"></path>
+                <path d="M1257 2493 c-4 -3 -7 -116 -7 -250 l0 -243 623 2 622 3 0 245 0 245
+        -616 3 c-338 1 -619 -1 -622 -5z" id="node2" class="node"></path>
+                <path d="M504 1737 c-2 -7 -3 -118 -2 -247 l3 -235 245 0 245 0 3 248 2 247
+        -245 0 c-189 0 -247 -3 -251 -13z" id="node3" class="node"></path>
+                <path d="M1255 1737 c-3 -7 -4 -118 -3 -247 l3 -235 620 0 620 0 0 245 0 245
+        -618 3 c-494 2 -619 0 -622 -11z" id="node4" class="node"></path>
+                <path d="M504 987 c-2 -7 -3 -118 -2 -247 l3 -235 245 0 245 0 3 248 2 247
+        -245 0 c-189 0 -247 -3 -251 -13z" id="node5" class="node"></path>
+                <path d="M1255 987 c-3 -7 -4 -118 -3 -247 l3 -235 620 0 620 0 0 245 0 245
+        -618 3 c-494 2 -619 0 -622 -11z" id="node6" class="node"></path>
+            </g>
+            <g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"  stroke="none">
+
+            </g>
+        </symbol>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol id="trash" viewBox="0 0 100 101">
+            <g>
+                <path d="M62.5,78H67V39.3h-4.5V78z M47.4,78h4.5V39.3h-4.5V78z M32.3,78h4.5V39.3h-4.5V78z M80.8,21.3c0-0.6-0.5-1.2-1.2-1.2H19.7
+		c-0.6,0-1.2,0.5-1.2,1.2v3.1h62.3V21.3z M41.9,15.6h15.5v-4.9c0-0.6-0.5-1.2-1.2-1.2H43c-0.6,0-1.2,0.5-1.2,1.2V15.6z M85.3,21.3
+		v7.6H14v-7.6c0-3.1,2.5-5.7,5.7-5.7h17.7v-4.9C37.4,7.5,39.9,5,43,5h13.2c3.1,0,5.7,2.5,5.7,5.7v4.9H64h15.6
+		C82.7,15.6,85.3,18.1,85.3,21.3L85.3,21.3z M77.6,32.3h4.5v54.2c0,4.7-3.8,8.6-8.6,8.6H25.7c-4.7,0-8.6-3.8-8.6-8.6V32.3h4.5v54.2
+		c0,2.2,1.8,4.1,4.1,4.1h47.9c2.2,0,4.1-1.8,4.1-4.1V32.3z"/>
+            </g>
+        </symbol>
+    </svg>
+
+
+
+</div>
+
+
+<script src="js/jquery-2.2.3.min.js"></script>
+
+<script src="js/swiper.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/ScrollMagic.min.js"></script>
+<script src="js/plugins/animation.gsap.min.js"></script>
+<script src="js/plugins/debug.addIndicators.min.js"></script>
+<script src="js/plugins/CountUp.min.js"></script>
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/prlx.js"></script>
+<script src="js/switcher.js"></script>
+<script src="js/script.min.js"></script>
+
+
+</body>
+</html>

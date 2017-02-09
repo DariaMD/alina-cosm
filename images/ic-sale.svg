@@ -1,0 +1,34 @@
+<svg width="22" height="20" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3271 125)" figma:type="canvas">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Vector 6" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_stroke" transform="translate(3273.78 -124)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Ellipse 6" style="mix-blend-mode:normal;" figma:type="ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(3285.17 -114.609)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(3285.17 -114.609)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<g id="Ellipse 6" style="mix-blend-mode:normal;" figma:type="ellipse">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path3_fill" fill="white" transform="translate(3271.22 -124)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path4_stroke_2x" transform="translate(3271.22 -124)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M -0.601041 16.6164C -0.932986 16.9483 -0.932986 17.4865 -0.601041 17.8184C -0.269095 18.1504 0.269095 18.1504 0.601041 17.8184L -0.601041 16.6164ZM 17.8184 0.601041C 18.1504 0.269095 18.1504 -0.269095 17.8184 -0.601041C 17.4865 -0.932986 16.9483 -0.932986 16.6164 -0.601041L 17.8184 0.601041ZM 0.601041 17.8184L 17.8184 0.601041L 16.6164 -0.601041L -0.601041 16.6164L 0.601041 17.8184Z"/>
+<path id="path1_fill" d="M 7.82609 3.91304C 7.82609 6.07416 6.07416 7.82609 3.91304 7.82609C 1.75193 7.82609 0 6.07416 0 3.91304C 0 1.75193 1.75193 0 3.91304 0C 6.07416 0 7.82609 1.75193 7.82609 3.91304Z"/>
+<path id="path2_stroke_2x" d="M 6.12609 3.91304C 6.12609 5.13527 5.13527 6.12609 3.91304 6.12609L 3.91304 9.52609C 7.01304 9.52609 9.52609 7.01304 9.52609 3.91304L 6.12609 3.91304ZM 3.91304 6.12609C 2.69081 6.12609 1.7 5.13527 1.7 3.91304L -1.7 3.91304C -1.7 7.01304 0.813045 9.52609 3.91304 9.52609L 3.91304 6.12609ZM 1.7 3.91304C 1.7 2.69081 2.69081 1.7 3.91304 1.7L 3.91304 -1.7C 0.813045 -1.7 -1.7 0.813045 -1.7 3.91304L 1.7 3.91304ZM 3.91304 1.7C 5.13527 1.7 6.12609 2.69081 6.12609 3.91304L 9.52609 3.91304C 9.52609 0.813045 7.01304 -1.7 3.91304 -1.7L 3.91304 1.7Z"/>
+<path id="path3_fill" d="M 7.78217 3.91304C 7.78217 6.07416 6.04007 7.82609 3.89109 7.82609C 1.7421 7.82609 0 6.07416 0 3.91304C 0 1.75193 1.7421 0 3.89109 0C 6.04007 0 7.78217 1.75193 7.78217 3.91304Z"/>
+<path id="path4_stroke_2x" d="M 6.08217 3.91304C 6.08217 5.14431 5.09218 6.12609 3.89109 6.12609L 3.89109 9.52609C 6.98796 9.52609 9.48217 7.00401 9.48217 3.91304L 6.08217 3.91304ZM 3.89109 6.12609C 2.68999 6.12609 1.7 5.14431 1.7 3.91304L -1.7 3.91304C -1.7 7.00401 0.794208 9.52609 3.89109 9.52609L 3.89109 6.12609ZM 1.7 3.91304C 1.7 2.68178 2.68999 1.7 3.89109 1.7L 3.89109 -1.7C 0.794208 -1.7 -1.7 0.822077 -1.7 3.91304L 1.7 3.91304ZM 3.89109 1.7C 5.09218 1.7 6.08217 2.68178 6.08217 3.91304L 9.48217 3.91304C 9.48217 0.822077 6.98796 -1.7 3.89109 -1.7L 3.89109 1.7Z"/>
+</defs>
+</svg>

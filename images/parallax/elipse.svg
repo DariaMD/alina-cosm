@@ -1,0 +1,18 @@
+<svg width="33" height="34" viewBox="0 0 33 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Ellipse 4</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2720 -5369)" figma:type="canvas">
+<g id="Ellipse 4" style="mix-blend-mode:normal;" figma:type="ellipse">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(2720.29 5369.12)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(2720.29 5369.12)" fill="#C4C4C4" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 32.6622 16.8682C 32.6622 26.1843 25.3505 33.7364 16.3311 33.7364C 7.31168 33.7364 0 26.1843 0 16.8682C 0 7.55216 7.31168 0 16.3311 0C 25.3505 0 32.6622 7.55216 32.6622 16.8682Z"/>
+<path id="path1_stroke_2x" d="M 31.6622 16.8682C 31.6622 25.6627 24.768 32.7364 16.3311 32.7364L 16.3311 34.7364C 25.933 34.7364 33.6622 26.7058 33.6622 16.8682L 31.6622 16.8682ZM 16.3311 32.7364C 7.89422 32.7364 1 25.6627 1 16.8682L -1 16.8682C -1 26.7058 6.72914 34.7364 16.3311 34.7364L 16.3311 32.7364ZM 1 16.8682C 1 8.07369 7.89422 1 16.3311 1L 16.3311 -1C 6.72914 -1 -1 7.03062 -1 16.8682L 1 16.8682ZM 16.3311 1C 24.768 1 31.6622 8.07369 31.6622 16.8682L 33.6622 16.8682C 33.6622 7.03062 25.933 -1 16.3311 -1L 16.3311 1Z"/>
+</defs>
+</svg>
